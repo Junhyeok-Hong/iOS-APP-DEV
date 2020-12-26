@@ -1,0 +1,42 @@
+PODS:
+  - DateScrollPicker (1.1.0)
+  - DynamicBlurView (4.1.0)
+  - JTAppleCalendar (8.0.3)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - Realm (5.2.0):
+    - Realm/Headers (= 5.2.0)
+  - Realm/Headers (5.2.0)
+  - RealmSwift (5.2.0):
+    - Realm (= 5.2.0)
+  - SwipeCellKit (2.7.1)
+
+DEPENDENCIES:
+  - DateScrollPicker
+  - JTAppleCalendar
+  - PopupDialog (~> 1.1)
+  - RealmSwift
+  - SwipeCellKit
+
+SPEC REPOS:
+  trunk:
+    - DateScrollPicker
+    - DynamicBlurView
+    - JTAppleCalendar
+    - PopupDialog
+    - Realm
+    - RealmSwift
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  DateScrollPicker: 95cbb220b28a5dd95c97018dd278c074842c7e21
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  JTAppleCalendar: 932cadea40b1051beab10f67843451d48ba16c99
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  Realm: f749c723e272f08fdf1939af5e61d2bd09b203e8
+  RealmSwift: bf0ab78b52c5bafba8b3ad73be8dfb4c1ea5cf01
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+
+PODFILE CHECKSUM: 678cb854f22d2383d27913ca29ec0ce4f17a0939
+
+COCOAPODS: 1.9.1

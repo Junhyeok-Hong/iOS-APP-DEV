@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2306527924C524C700A087AB /* AllHabbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2306527824C524C700A087AB /* AllHabbitViewController.swift */; };
+		23348D1B2499E1B7006A9CF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23348D1A2499E1B7006A9CF6 /* AppDelegate.swift */; };
+		23348D1D2499E1B7006A9CF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23348D1C2499E1B7006A9CF6 /* SceneDelegate.swift */; };
+		23348D222499E1B7006A9CF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23348D202499E1B7006A9CF6 /* Main.storyboard */; };
+		23348D242499E1B9006A9CF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23348D232499E1B9006A9CF6 /* Assets.xcassets */; };
+		23348D272499E1B9006A9CF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23348D252499E1B9006A9CF6 /* LaunchScreen.storyboard */; };
+		233F194624A0875A00AE8552 /* HabbitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F194524A0875A00AE8552 /* HabbitData.swift */; };
+		233F194924A0890D00AE8552 /* HabbitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F194824A0890D00AE8552 /* HabbitViewController.swift */; };
+		233F194B24A08C9D00AE8552 /* CreateNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F194A24A08C9D00AE8552 /* CreateNewViewController.swift */; };
+		23935C9824B5826500118DA8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23935C9724B5826500118DA8 /* InfoViewController.swift */; };
+		23BB639724A9B19D00B8CC74 /* SelectDatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB639624A9B19D00B8CC74 /* SelectDatesViewController.swift */; };
+		23BB639924A9B93600B8CC74 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BB639824A9B93600B8CC74 /* DatePickerViewController.swift */; };
+		23F5CD5E24BD144700AC43E8 /* InfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5CD5D24BD144700AC43E8 /* InfoCollectionViewCell.swift */; };
+		23F5CD6224BD99D400AC43E8 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5CD6124BD99D400AC43E8 /* DateCell.swift */; };
+		23F5CD6424BD9E2700AC43E8 /* DateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5CD6324BD9E2700AC43E8 /* DateHeader.swift */; };
+		F031008DC7FC7180B59BB837 /* Pods_Habbit_Builder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7A5CC95F7DCB61EF96DC0D /* Pods_Habbit_Builder.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2306527824C524C700A087AB /* AllHabbitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllHabbitViewController.swift; sourceTree = "<group>"; };
+		23348D172499E1B7006A9CF6 /* Habbit Builder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Habbit Builder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23348D1A2499E1B7006A9CF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23348D1C2499E1B7006A9CF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23348D212499E1B7006A9CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23348D232499E1B9006A9CF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23348D262499E1B9006A9CF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23348D282499E1B9006A9CF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233F194524A0875A00AE8552 /* HabbitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabbitData.swift; sourceTree = "<group>"; };
+		233F194824A0890D00AE8552 /* HabbitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabbitViewController.swift; sourceTree = "<group>"; };
+		233F194A24A08C9D00AE8552 /* CreateNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewViewController.swift; sourceTree = "<group>"; };
+		23935C9724B5826500118DA8 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		23BB639624A9B19D00B8CC74 /* SelectDatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDatesViewController.swift; sourceTree = "<group>"; };
+		23BB639824A9B93600B8CC74 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		23F5CD5D24BD144700AC43E8 /* InfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		23F5CD6124BD99D400AC43E8 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		23F5CD6324BD9E2700AC43E8 /* DateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHeader.swift; sourceTree = "<group>"; };
+		3A7A5CC95F7DCB61EF96DC0D /* Pods_Habbit_Builder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Habbit_Builder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6114273CE954B30F2079DC /* Pods-Habbit Builder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habbit Builder.release.xcconfig"; path = "Target Support Files/Pods-Habbit Builder/Pods-Habbit Builder.release.xcconfig"; sourceTree = "<group>"; };
+		F83364FF84E87F41B10FEA20 /* Pods-Habbit Builder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habbit Builder.debug.xcconfig"; path = "Target Support Files/Pods-Habbit Builder/Pods-Habbit Builder.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23348D142499E1B7006A9CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F031008DC7FC7180B59BB837 /* Pods_Habbit_Builder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23348D0E2499E1B7006A9CF6 = {
+			isa = PBXGroup;
+			children = (
+				23348D192499E1B7006A9CF6 /* Habbit Builder */,
+				23348D182499E1B7006A9CF6 /* Products */,
+				2A29FD776D0FFCFF0C14B727 /* Pods */,
+				D55C23960BF63E01B4230EAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		23348D182499E1B7006A9CF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23348D172499E1B7006A9CF6 /* Habbit Builder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23348D192499E1B7006A9CF6 /* Habbit Builder */ = {
+			isa = PBXGroup;
+			children = (
+				23348D1A2499E1B7006A9CF6 /* AppDelegate.swift */,
+				23348D1C2499E1B7006A9CF6 /* SceneDelegate.swift */,
+				233F194724A0875E00AE8552 /* Data Model */,
+				233F194424A0872E00AE8552 /* Views */,
+				233F194324A0872700AE8552 /* Controllers */,
+				23348D232499E1B9006A9CF6 /* Assets.xcassets */,
+				23348D252499E1B9006A9CF6 /* LaunchScreen.storyboard */,
+				23348D282499E1B9006A9CF6 /* Info.plist */,
+			);
+			path = "Habbit Builder";
+			sourceTree = "<group>";
+		};
+		233F194324A0872700AE8552 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				233F194824A0890D00AE8552 /* HabbitViewController.swift */,
+				233F194A24A08C9D00AE8552 /* CreateNewViewController.swift */,
+				23BB639624A9B19D00B8CC74 /* SelectDatesViewController.swift */,
+				23BB639824A9B93600B8CC74 /* DatePickerViewController.swift */,
+				23935C9724B5826500118DA8 /* InfoViewController.swift */,
+				23F5CD5D24BD144700AC43E8 /* InfoCollectionViewCell.swift */,
+				23F5CD6124BD99D400AC43E8 /* DateCell.swift */,
+				23F5CD6324BD9E2700AC43E8 /* DateHeader.swift */,
+				2306527824C524C700A087AB /* AllHabbitViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		233F194424A0872E00AE8552 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23348D202499E1B7006A9CF6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		233F194724A0875E00AE8552 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				233F194524A0875A00AE8552 /* HabbitData.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		2A29FD776D0FFCFF0C14B727 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F83364FF84E87F41B10FEA20 /* Pods-Habbit Builder.debug.xcconfig */,
+				ED6114273CE954B30F2079DC /* Pods-Habbit Builder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D55C23960BF63E01B4230EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A5CC95F7DCB61EF96DC0D /* Pods_Habbit_Builder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23348D162499E1B7006A9CF6 /* Habbit Builder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23348D2B2499E1B9006A9CF6 /* Build configuration list for PBXNativeTarget "Habbit Builder" */;
+			buildPhases = (
+				278831DE186D76F1DFA19648 /* [CP] Check Pods Manifest.lock */,
+				23348D132499E1B7006A9CF6 /* Sources */,
+				23348D142499E1B7006A9CF6 /* Frameworks */,
+				23348D152499E1B7006A9CF6 /* Resources */,
+				3448EC323D85BB1CE86F9106 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Habbit Builder";
+			productName = "Habbit Builder";
+			productReference = 23348D172499E1B7006A9CF6 /* Habbit Builder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23348D0F2499E1B7006A9CF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Junhyeok Hong";
+				TargetAttributes = {
+					23348D162499E1B7006A9CF6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 23348D122499E1B7006A9CF6 /* Build configuration list for PBXProject "Habbit Builder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23348D0E2499E1B7006A9CF6;
+			productRefGroup = 23348D182499E1B7006A9CF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23348D162499E1B7006A9CF6 /* Habbit Builder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23348D152499E1B7006A9CF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23348D272499E1B9006A9CF6 /* LaunchScreen.storyboard in Resources */,
+				23348D242499E1B9006A9CF6 /* Assets.xcassets in Resources */,
+				23348D222499E1B7006A9CF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		278831DE186D76F1DFA19648 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Habbit Builder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3448EC323D85BB1CE86F9106 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Habbit Builder/Pods-Habbit Builder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Habbit Builder/Pods-Habbit Builder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Habbit Builder/Pods-Habbit Builder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23348D132499E1B7006A9CF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23348D1B2499E1B7006A9CF6 /* AppDelegate.swift in Sources */,
+				23F5CD6224BD99D400AC43E8 /* DateCell.swift in Sources */,
+				23348D1D2499E1B7006A9CF6 /* SceneDelegate.swift in Sources */,
+				23BB639924A9B93600B8CC74 /* DatePickerViewController.swift in Sources */,
+				23BB639724A9B19D00B8CC74 /* SelectDatesViewController.swift in Sources */,
+				233F194924A0890D00AE8552 /* HabbitViewController.swift in Sources */,
+				233F194624A0875A00AE8552 /* HabbitData.swift in Sources */,
+				23F5CD5E24BD144700AC43E8 /* InfoCollectionViewCell.swift in Sources */,
+				23935C9824B5826500118DA8 /* InfoViewController.swift in Sources */,
+				23F5CD6424BD9E2700AC43E8 /* DateHeader.swift in Sources */,
+				2306527924C524C700A087AB /* AllHabbitViewController.swift in Sources */,
+				233F194B24A08C9D00AE8552 /* CreateNewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		23348D202499E1B7006A9CF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23348D212499E1B7006A9CF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23348D252499E1B9006A9CF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23348D262499E1B9006A9CF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23348D292499E1B9006A9CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23348D2A2499E1B9006A9CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23348D2C2499E1B9006A9CF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83364FF84E87F41B10FEA20 /* Pods-Habbit Builder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DWD8K2PSW2;
+				INFOPLIST_FILE = "Habbit Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junhyeokhong.Habbit-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23348D2D2499E1B9006A9CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6114273CE954B30F2079DC /* Pods-Habbit Builder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DWD8K2PSW2;
+				INFOPLIST_FILE = "Habbit Builder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junhyeokhong.Habbit-Builder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23348D122499E1B7006A9CF6 /* Build configuration list for PBXProject "Habbit Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23348D292499E1B9006A9CF6 /* Debug */,
+				23348D2A2499E1B9006A9CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23348D2B2499E1B9006A9CF6 /* Build configuration list for PBXNativeTarget "Habbit Builder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23348D2C2499E1B9006A9CF6 /* Debug */,
+				23348D2D2499E1B9006A9CF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23348D0F2499E1B7006A9CF6 /* Project object */;
+}
